@@ -9,3 +9,9 @@
     display: none; //스크롤바 숨기기(Chrome
   }
 }
+
+@mixin ellipse {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
