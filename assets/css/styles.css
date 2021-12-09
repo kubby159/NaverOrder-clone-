@@ -312,7 +312,7 @@ textarea::-webkit-outer-spin-button {
   flex: 1;
   background-color: rgba(0, 0, 0, 0.06);
   line-height: 40px;
-  font-style: 13px;
+  font-size: 13px;
   font-weight: 700;
   color: #666;
   letter-spacing: -0.3px;
@@ -323,7 +323,7 @@ textarea::-webkit-outer-spin-button {
   flex-grow: 1.2;
   border: 1px solid #333;
   background-color: #fff;
-  font-style: 15px;
+  font-size: 15px;
   color: #333;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
 }
@@ -355,7 +355,7 @@ textarea::-webkit-outer-spin-button {
   padding: 12px 16px;
   border-radius: 2px;
   background-color: #fff;
-  font-style: 14px;
+  font-size: 14px;
   letter-spacing: -0.3px;
   color: #333;
 }
