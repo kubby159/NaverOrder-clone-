@@ -1,6 +1,7 @@
 .container {
   //tab과 header-height 높이의 합만큼 padding을 주고나서 요소가 시작됨.
   padding-top: $place-header-height + $place-tab-height;
+  background-color: $booking-color-border151;
 }
 
 .common-inner {
