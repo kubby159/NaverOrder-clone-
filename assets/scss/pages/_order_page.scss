@@ -1,10 +1,21 @@
 .container {
   //tab과 header-height 높이의 합만큼 padding을 주고나서 요소가 시작됨.
   padding-top: $place-header-height + $place-tab-height;
+  padding-bottom: $order-box-area-height;
   background-color: $booking-color-border151;
 }
 
 .common-inner {
   margin: 0 auto;
   max-width: 720px; //줄어들 때는 계속 줄지만, 늘어날 때는  최대 720px까지만 늘어남.
+}
+
+.badge-popular {
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 10px;
+  line-height: 16px;
+  font-weight: 700;
+  background-color: #ff61a7;
+  color: #fff;
 }

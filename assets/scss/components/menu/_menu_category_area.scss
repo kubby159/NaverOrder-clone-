@@ -3,6 +3,7 @@
   top: $header-height;
   margin-top: 10px;
   background-color: #fff;
+  z-index: 5500;
 
   .common-inner {
     position: relative;
@@ -32,9 +33,9 @@
       height: 100%;
       //to left : 시작값이 오른쪽
       background-image: linear-gradient(
-        to left,
-        #fff,
-        rgba(255, 255, 255, 0)
+        to right,
+        rgba(255, 255, 255, 0),
+        #fff
       ); //그라데이션을 줄 수 있음.
       pointer-events: none; //마우스로 클릭되지 않는 요소.
       z-index: 1;

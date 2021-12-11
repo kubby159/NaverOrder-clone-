@@ -1,14 +1,18 @@
-@import "./abstracts/_variables_color";
-@import "./abstracts/_variables";
+@import "./abstracts/variables_color";
+@import "./abstracts/variables";
 @import "./abstracts/mixin_common";
-@import "./base/_reset";
-@import "./base/_preset";
 
-@import "./components/_order_type";
-@import "./components/_header_area";
+@import "./base/reset";
+@import "./base/preset";
+
+@import "./components/header_area";
 @import "./components/menu_category_area";
-@import "./components/order_info_area";
-@import "./components/recent_order_area";
+@import "./components/menu_item";
 @import "./components/menu_list_area";
+@import "./components/order-box-area";
+@import "./components/order_info_area";
+@import "./components/order_type";
+@import "./components/recent_order_area";
+@import "./components/go_to_top";
 
-@import "./pages/_order_page";
+@import "./pages/order_page";
